@@ -93,7 +93,6 @@ function attachSinkId(element, sinkId) {
 
 function changeAudioDestination() {
   const audioDestination = audioOutputSelect.value;
-  attachSinkId(videoElement, audioDestination);
 }
 
 function gotStream(stream) {
